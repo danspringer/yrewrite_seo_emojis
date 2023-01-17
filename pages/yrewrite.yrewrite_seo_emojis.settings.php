@@ -15,8 +15,11 @@ $fragment->setVar('title', $addon->i18n('yrewrite_seo_emojis_config'), false);
 $fragment->setVar('body', $form->get(), false);
 echo $fragment->parse('core/page/section.php');
 
-
 $fragment = new rex_fragment();
-echo $fragment->parse('yrewrite-seo-emojis-examples.php');
+#echo  $fragment->parse('yrewrite-seo-emojis-examples.php');
+$examples = rex_file::get(rex_path::addon('yrewrite_seo_emojis','fragments/yrewrite-seo-emojis-examples.php'));
+$fragment->setVar('title', $addon->i18n('yrewrite_seo_emojis_examples_headline'), false);
+$fragment->setVar('body', $examples, false);
+echo $fragment->parse('core/page/section.php');
 ?>
 

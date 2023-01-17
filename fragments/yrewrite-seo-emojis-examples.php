@@ -1,4 +1,3 @@
-<h3>Emojis und Tipps</h3>
 <p>
     Sistrix hat 3.365.835.367 Suchergebnisse ausgewertet um zu erfahren, welche Emojis und Sonderzeichen am häufigsten angezeigt werden. Google zeigt nicht alle Elemente an, die im Titel oder Meta-Description stehen, sondern wägt je nach Relevanz von Suchanfrage und Webseite ab.
 </p>

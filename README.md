@@ -14,6 +14,7 @@ Kein nerviges Nachschlagen und Copy and Paste mehr!
 In den Einstellungen des AddOns lässt sich eine eigene Liste mit Emojis hinterlegen, die dann im SEO-Bereich von YRewrite eines Artikels vorhanden ist. Per Klick auf ein Emoji wird es dann eingefügt.
 Kein nerviges Nachschlagen und Copy and Paste mehr!
 
+Die Emoji-Liste kann in den [Einstellungen](index.php?page=yrewrite/yrewrite_seo_emojis/settings) bearbeitet werden.
 Die Emojis werden jeweils durch ein Semikolon <code>;</code> getrennt. Nach dem letzten Emoji folgt kein Semikolon mehr.
 
 ### `Häufig verwendete Emojis einfach einfügen`
