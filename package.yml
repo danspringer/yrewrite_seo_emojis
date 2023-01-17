@@ -15,18 +15,15 @@ pages:
     yrewrite/yrewrite_seo_emojis:
         title: 'translate:yrewrite_seo_emojis_title'
         icon: rex-icon fa-smile-o
-        perm: yrewrite_seo_emojis[]
         subpages:
           settings:
             { title: 'translate:yrewrite_seo_emojis_settings',
               icon: rex-icon fa-pencil,
-              perm: yrewrite_seo_emojis[ settings ]
             }
           docs:
             { title: 'translate:yrewrite_seo_emojis_docs',
               subPath: README.md,
               icon: rex-icon fa-info-circle,
-              perm: yrewrite_seo_emojis[ docs ]
             }
 
 default_config:
