@@ -1,0 +1,33 @@
+package: yrewrite_seo_emojis
+version: '1.0'
+author: 'Medienfeuer | Daniel Springer'
+supportpage: https://github.com/danspringer/yrewrite_seo_emojis
+
+requires:
+    php:
+        version: '>7.3,<9'
+    redaxo: ^5.13
+    packages:
+        yform: "^4"
+        yrewrite: ">2"
+
+pages:
+    yrewrite/yrewrite_seo_emojis:
+        title: 'translate:yrewrite_seo_emojis_title'
+        icon: rex-icon fa-smile-o
+        perm: yrewrite_seo_emojis[]
+        subpages:
+          settings:
+            { title: 'translate:yrewrite_seo_emojis_settings',
+              icon: rex-icon fa-pencil,
+              perm: yrewrite_seo_emojis[ settings ]
+            }
+          docs:
+            { title: 'translate:yrewrite_seo_emojis_docs',
+              subPath: README.md,
+              icon: rex-icon fa-info-circle,
+              perm: yrewrite_seo_emojis[ docs ]
+            }
+
+default_config:
+    emojis: '»;«;🥇;ᐅ;➤;✓;✅;✔;☎️;☎;💡'

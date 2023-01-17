@@ -1,0 +1,9 @@
+yrewrite_seo_emojis_title = YRewrite SEO-Emojis
+yrewrite_seo_emojis_description = Emoji-Auswahl für YRewrite-SEO-Felder  ✅🥇🎉⭐
+
+yrewrite_seo_emojis_docs = Doku
+yrewrite_seo_emojis_settings = Emojis bearbeiten
+yrewrite_seo_emojis_config = Eigene Emoji-Konfiguration
+
+yrewrite_seo_emojis_config_label = Emojis, welche im Emoji-Picker der SEO-Einstellungen pro Artikel auftauchen
+yrewrite_seo_emojis_config_notice = Emojis mit einem Semikolon <code>;</code> trennen. Nach dem letzten Emoji kein Semikolon!

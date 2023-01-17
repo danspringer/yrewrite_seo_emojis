@@ -1,0 +1,25 @@
+#yrewrite-seo-emojis-stage .yrewrite-seo-emoji-item {
+    display: inline;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+
+#yrewrite-seo-emojis-stage .yrewrite-seo-emoji-item:hover {
+    opacity: 1;
+}
+
+#yform-yrewrite-seo-yrewrite_description .well {
+    margin-bottom: 0px !important;
+}
+
+#yform-yrewrite-seo-yrewrite_description #yform-yrewrite-seo-field-1 {
+    min-height: 130px !important;
+}
+
+.yrewrite-seo-emojis-help-block {
+    margin-top: 5px;
+    font-size: 80%;
+    color: #647f9e;
+}
